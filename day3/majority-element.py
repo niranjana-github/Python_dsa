@@ -7,7 +7,7 @@ class Solution:
             for j in nums:
                 if i==j:
                     c+=1
-        if c>maj:
-            return i
+            if c>maj:
+                return i
 soln=Solution()
 print(soln.majorityElement([3,2,3]))
